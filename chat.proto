@@ -1,0 +1,12 @@
+syntax = "proto3";
+package chat;
+option go_package ="github.com/jsakash/gRPC_MiniProject;gRPC_MiniProject";
+
+message Message{
+    string body = 1 ;
+
+}
+
+service ChatService{
+    rpc SayHello(Message) returns (Message){ }
+}
