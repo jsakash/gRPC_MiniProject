@@ -4,7 +4,7 @@
 // 	protoc        v3.21.9
 // source: chat.proto
 
-package gRPC_MiniProject
+package chat
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
